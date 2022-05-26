@@ -1,4 +1,4 @@
-import { GET_PRODUCTS } from './mutation-types';
+import {GET_PRODUCTS} from './mutation-types';
 
 const captains = console;
 

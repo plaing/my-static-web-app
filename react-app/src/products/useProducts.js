@@ -1,7 +1,7 @@
-import { useCallback } from 'react';
-import { useDispatch, useSelector } from 'react-redux';
+import {useCallback} from 'react';
+import {useDispatch, useSelector} from 'react-redux';
 
-import { loadProductsAction } from '../store';
+import {loadProductsAction} from '../store';
 
 /** Custom hook for accessing Product state in redux store */
 function useProducts() {

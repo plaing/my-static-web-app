@@ -1,7 +1,7 @@
 import React from 'react';
-import { withRouter } from 'react-router';
+import {withRouter} from 'react-router';
 
-import { CardContent } from '../components';
+import {CardContent} from '../components';
 
 function ProductList({products}) {
   return (

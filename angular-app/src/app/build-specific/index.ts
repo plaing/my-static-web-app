@@ -1,4 +1,4 @@
-import { StoreDevtoolsModule } from '@ngrx/store-devtools';
+import {StoreDevtoolsModule} from '@ngrx/store-devtools';
 
 /**
  * Put dev specific code here, and prod specific code in index.prod.ts

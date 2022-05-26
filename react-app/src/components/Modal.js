@@ -1,5 +1,5 @@
-import { Component } from 'react';
-import { createPortal } from 'react-dom';
+import {Component} from 'react';
+import {createPortal} from 'react-dom';
 
 const modalRoot = document.getElementById('modal');
 

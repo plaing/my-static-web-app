@@ -1,5 +1,5 @@
-import { Component, Input, ChangeDetectionStrategy } from '@angular/core';
-import { Product } from '../core';
+import {ChangeDetectionStrategy, Component, Input} from '@angular/core';
+import {Product} from '../core';
 
 @Component({
   selector: 'app-product-list',

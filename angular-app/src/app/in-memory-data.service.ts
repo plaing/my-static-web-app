@@ -1,12 +1,8 @@
 /**
  * Hero-oriented InMemoryDbService with method overrides.
  */
-import { Injectable } from '@angular/core';
-import {
-  ParsedRequestUrl,
-  RequestInfo,
-  RequestInfoUtilities,
-} from 'angular-in-memory-web-api';
+import {Injectable} from '@angular/core';
+import {ParsedRequestUrl, RequestInfo, RequestInfoUtilities,} from 'angular-in-memory-web-api';
 
 /** In-memory database data */
 interface Db {

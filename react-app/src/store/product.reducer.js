@@ -1,8 +1,4 @@
-import {
-  LOAD_PRODUCT_SUCCESS,
-  LOAD_PRODUCT,
-  LOAD_PRODUCT_ERROR,
-} from './product.actions';
+import {LOAD_PRODUCT, LOAD_PRODUCT_ERROR, LOAD_PRODUCT_SUCCESS,} from './product.actions';
 
 let initState = {
   loading: false,

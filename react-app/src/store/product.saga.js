@@ -1,10 +1,6 @@
-import { put, takeEvery, call, all } from 'redux-saga/effects';
-import {
-  LOAD_PRODUCT,
-  LOAD_PRODUCT_SUCCESS,
-  LOAD_PRODUCT_ERROR,
-} from './product.actions';
-import { loadProductsApi } from './product.api';
+import {all, call, put, takeEvery} from 'redux-saga/effects';
+import {LOAD_PRODUCT, LOAD_PRODUCT_ERROR, LOAD_PRODUCT_SUCCESS,} from './product.actions';
+import {loadProductsApi} from './product.api';
 
 export function* loadingProductsAsync() {
   try {

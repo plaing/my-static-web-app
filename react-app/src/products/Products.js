@@ -1,7 +1,7 @@
-import React, { useEffect } from 'react';
-import { Route, Switch } from 'react-router-dom';
+import React, {useEffect} from 'react';
+import {Route, Switch} from 'react-router-dom';
 
-import { ListHeader } from '../components';
+import {ListHeader} from '../components';
 import ProductList from './ProductList';
 import useProducts from './useProducts';
 
